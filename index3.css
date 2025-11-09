@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  background-color: #eaf2ff; 
+  color: #333;
+  line-height: 1.7;
+  scroll-behavior: smooth;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+header {
+  background: #ffffff;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 3px solid #0078ff;
+}
+
+.section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #120c12;
+  margin-top: 8px;
+  border-radius: 2px;
+}
+/* Paragraphs */
+.section p {
+  color: #1d1616;
+  font-size: 1rem;
+}
+.edu-card, .project-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  margin-top: 18px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#eaf2ff;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+
+
+/* ---------- Contact ---------- */
+.contact {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  padding: 40px 25px;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background: #0078ff;
+  color: #fff;
+  text-align: center;
+  padding: 18px 0;
+  margin-top: 60px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  font-size: 0.95rem;
+}
+
